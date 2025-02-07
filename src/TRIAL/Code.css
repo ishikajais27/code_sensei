@@ -1,0 +1,93 @@
+/* styles.css */
+@import 'tailwindcss';
+
+.code {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.fullscreen {
+  min-height: 100vh; /* Full height */
+}
+
+.bg-custom {
+  background-color: #1a202c; /* Dark background */
+}
+/* Custom styles for the calendar */
+./* Custom styles for the calendar */
+.custom-calendar {
+  width: 100%;
+  max-width: 100%;
+  background-color: #0d1117 !important; /* GitHub-like dark background */
+  border: none !important;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.custom-calendar .react-calendar__tile {
+  background-color: #161b22 !important; /* Dark tile background */
+  color: #c9d1d9 !important; /* Light text color */
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  margin: 0.1rem;
+  border: 1px solid #30363d !important; /* Border color */
+}
+
+.custom-calendar .react-calendar__tile:enabled:hover,
+.custom-calendar .react-calendar__tile:enabled:focus {
+  background-color: #238636 !important; /* GitHub-like green hover */
+  color: #ffffff !important;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #238636 !important; /* GitHub-like green for active tiles */
+  color: #ffffff !important;
+}
+
+.custom-calendar .react-calendar__month-view__days__day--weekend {
+  color: #c9d1d9 !important; /* Light text color for weekends */
+}
+
+.custom-calendar .react-calendar__navigation button {
+  color: #c9d1d9 !important; /* Light text color for navigation buttons */
+  background-color: #161b22 !important; /* Dark background for navigation buttons */
+  border: 1px solid #30363d !important; /* Border color */
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin: 0.1rem;
+}
+
+.custom-calendar .react-calendar__navigation button:enabled:hover,
+.custom-calendar .react-calendar__navigation button:enabled:focus {
+  background-color: #238636 !important; /* GitHub-like green hover */
+  color: #ffffff !important;
+}
+
+.custom-calendar .react-calendar__month-view__weekdays__weekday {
+  color: #8b949e !important; /* Light gray for weekdays */
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+/* Highlight solved question dates */
+.custom-calendar .react-calendar__tile--hasActive {
+  background-color: #238636 !important; /* GitHub-like green for solved dates */
+  color: #ffffff !important;
+}
+
+/* Custom dot for solved dates */
+.custom-calendar .react-calendar__tile--hasActive::after {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff; /* White dot */
+  border-radius: 50%;
+  margin: 0.25rem auto 0;
+}
