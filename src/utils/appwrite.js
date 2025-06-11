@@ -1,23 +1,64 @@
+// import { Client, Account, Databases, Query } from 'appwrite'
+
+// const client = new Client()
+//   .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT)
+//   .setProject(import.meta.env.VITE_APPWRITE_PROJECT)
+
+// export const account = new Account(client)
+// export const databases = new Databases(client)
+
+// // Helper function to get user-specific tasks
+// export const getUserTasks = async (userId) => {
+//   try {
+//     const response = await databases.listDocuments(
+//       import.meta.env.VITE_APPWRITE_DATABASE,
+//       import.meta.env.VITE_APPWRITE_COLLECTION,
+//       [Query.equal('userId', userId)]
+//     )
+//     return response.documents
+//   } catch (error) {
+//     console.error('Error fetching user tasks:', error)
+//     return []
+//   }
+// }
+
+// export default client
 import { Client, Account, Databases, Query } from 'appwrite'
 
 const client = new Client()
-  .setEndpoint('https://cloud.appwrite.io/v1')
-  .setProject('679a68a50000913947d3')
+  .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT)
+  .setProject(import.meta.env.VITE_APPWRITE_PROJECT)
+  .setSelfSigned(true) // Only if using self-signed certificate
+
+// Add global error interceptor
+client.subscribe('response', (response) => {
+  if (response.code >= 400) {
+    console.error('Appwrite Error:', {
+      code: response.code,
+      message: response.message,
+      type: response.type,
+    })
+  }
+})
 
 export const account = new Account(client)
 export const databases = new Databases(client)
 
-// Optional: Helper function to get user-specific tasks
 export const getUserTasks = async (userId) => {
   try {
     const response = await databases.listDocuments(
-      '679bdc95000e93686bfe', // Your DATABASE_ID
-      '679bdd33001fe5ebc7bf',
-      '67a11cfc001204a521d4'[Query.equal('userId', userId)]
+      import.meta.env.VITE_APPWRITE_DATABASE,
+      import.meta.env.VITE_APPWRITE_COLLECTION,
+      [Query.equal('userId', userId)]
     )
     return response.documents
   } catch (error) {
-    console.error('Error fetching user tasks:', error)
+    console.error('Appwrite Error Details:', {
+      message: error.message,
+      type: error.type,
+      code: error.code,
+      response: error.response,
+    })
     return []
   }
 }
