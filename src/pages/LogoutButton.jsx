@@ -1,6 +1,6 @@
 // src/components/LogoutButton.jsx
 import React from 'react'
-import { account } from '../utils/appwrite'
+import { account } from '../backend/utils/appwrite'
 import { useNavigate } from 'react-router-dom'
 
 const LogoutButton = () => {

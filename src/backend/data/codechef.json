@@ -1,0 +1,1117 @@
+{
+  "codechef": {
+    "Programming Language": {
+      "Operators": {
+        "easy": [
+          {
+            "id": 1,
+            "title": "Chef And Operators",
+            "url": "https://www.codechef.com/problems/CHOPRT"
+          },
+          {
+            "id": 2,
+            "title": "Find Remainder",
+            "url": "https://www.codechef.com/problems/FLOW002"
+          },
+          {
+            "id": 3,
+            "title": "Sum of Digits",
+            "url": "https://www.codechef.com/problems/FLOW006"
+          },
+          {
+            "id": 4,
+            "title": "Add Two Numbers",
+            "url": "https://www.codechef.com/problems/FLOW001"
+          },
+          {
+            "id": 5,
+            "title": "First and Last Digit",
+            "url": "https://www.codechef.com/problems/FLOW004"
+          },
+          {
+            "id": 6,
+            "title": "Number Mirror",
+            "url": "https://www.codechef.com/problems/START01"
+          },
+          {
+            "id": 7,
+            "title": "ATM",
+            "url": "https://www.codechef.com/problems/HS08TEST"
+          },
+          {
+            "id": 8,
+            "title": "Enormous Input Test",
+            "url": "https://www.codechef.com/problems/INTEST"
+          },
+          {
+            "id": 9,
+            "title": "Lucky Four",
+            "url": "https://www.codechef.com/problems/LUCKFOUR"
+          },
+          {
+            "id": 10,
+            "title": "Valid Triangles",
+            "url": "https://www.codechef.com/problems/FLOW013"
+          }
+        ]
+      },
+      "Control-Statements": {
+        "easy": [
+          {
+            "id": 11,
+            "title": "Chef And Operators",
+            "url": "https://www.codechef.com/problems/CHOPRT"
+          },
+          {
+            "id": 12,
+            "title": "Valid Triangles",
+            "url": "https://www.codechef.com/problems/FLOW013"
+          },
+          {
+            "id": 13,
+            "title": "Reverse The Number",
+            "url": "https://www.codechef.com/problems/FLOW007"
+          },
+          {
+            "id": 14,
+            "title": "Decrement OR Increment",
+            "url": "https://www.codechef.com/problems/DECINC"
+          },
+          {
+            "id": 15,
+            "title": "Second Largest",
+            "url": "https://www.codechef.com/problems/SECLAR"
+          },
+          {
+            "id": 16,
+            "title": "Chef and Dolls",
+            "url": "https://www.codechef.com/problems/MISSP"
+          },
+          {
+            "id": 17,
+            "title": "Chef and his Sequence",
+            "url": "https://www.codechef.com/problems/CHEFSEQ"
+          },
+          {
+            "id": 18,
+            "title": "Chef and Remissness",
+            "url": "https://www.codechef.com/problems/REMISS"
+          },
+          {
+            "id": 19,
+            "title": "Ciel and Receipt",
+            "url": "https://www.codechef.com/problems/CIELRCPT"
+          },
+          {
+            "id": 20,
+            "title": "Mahasena",
+            "url": "https://www.codechef.com/problems/AMR15A"
+          }
+        ]
+      },
+      "Functions": {
+        "easy": [
+          {
+            "id": 21,
+            "title": "Small Factorial",
+            "url": "https://www.codechef.com/problems/FLOW018"
+          },
+          {
+            "id": 22,
+            "title": "Turbo Sort",
+            "url": "https://www.codechef.com/problems/TSORT"
+          },
+          {
+            "id": 23,
+            "title": "Finding Square Roots",
+            "url": "https://www.codechef.com/problems/FSQRT"
+          },
+          {
+            "id": 24,
+            "title": "Primality Test",
+            "url": "https://www.codechef.com/problems/PRB01"
+          },
+          {
+            "id": 25,
+            "title": "Sum of Digits",
+            "url": "https://www.codechef.com/problems/FLOW006"
+          },
+          {
+            "id": 26,
+            "title": "Reverse The Number",
+            "url": "https://www.codechef.com/problems/FLOW007"
+          },
+          {
+            "id": 27,
+            "title": "Lucky Four",
+            "url": "https://www.codechef.com/problems/LUCKFOUR"
+          },
+          {
+            "id": 28,
+            "title": "First and Last Digit",
+            "url": "https://www.codechef.com/problems/FLOW004"
+          },
+          {
+            "id": 29,
+            "title": "Factorial",
+            "url": "https://www.codechef.com/problems/FCTRL"
+          },
+          {
+            "id": 30,
+            "title": "Valid Triangles",
+            "url": "https://www.codechef.com/problems/FLOW013"
+          }
+        ]
+      },
+      "array_and_string": {
+        "easy": [
+          {
+            "id": 31,
+            "title": "Add Two Numbers",
+            "url": "https://www.codechef.com/problems/FLOW001"
+          },
+          {
+            "id": 32,
+            "title": "Sum of Digits",
+            "url": "https://www.codechef.com/problems/FLOW006"
+          },
+          {
+            "id": 33,
+            "title": "Reverse The Number",
+            "url": "https://www.codechef.com/problems/FLOW007"
+          },
+          {
+            "id": 34,
+            "title": "First and Last Digit",
+            "url": "https://www.codechef.com/problems/FLOW004"
+          },
+          {
+            "id": 35,
+            "title": "Lucky Four",
+            "url": "https://www.codechef.com/problems/LUCKFOUR"
+          },
+          {
+            "id": 36,
+            "title": "Chef and Dolls",
+            "url": "https://www.codechef.com/problems/MISSP"
+          },
+          {
+            "id": 37,
+            "title": "Chef and his Sequence",
+            "url": "https://www.codechef.com/problems/CHEFSEQ"
+          },
+          {
+            "id": 38,
+            "title": "Ciel and Receipt",
+            "url": "https://www.codechef.com/problems/CIELRCPT"
+          },
+          {
+            "id": 39,
+            "title": "Chef and Fruits",
+            "url": "https://www.codechef.com/problems/FRUITS"
+          },
+          {
+            "id": 40,
+            "title": "Mahasena",
+            "url": "https://www.codechef.com/problems/AMR15A"
+          },
+          {
+            "id": 41,
+            "title": "Second Largest",
+            "url": "https://www.codechef.com/problems/SECLAR"
+          },
+          {
+            "id": 42,
+            "title": "Chef and Remissness",
+            "url": "https://www.codechef.com/problems/REMISS"
+          },
+          {
+            "id": 43,
+            "title": "Lapindromes",
+            "url": "https://www.codechef.com/problems/LAPIN"
+          },
+          {
+            "id": 44,
+            "title": "Greedy Puppy",
+            "url": "https://www.codechef.com/problems/GDOG"
+          },
+          {
+            "id": 45,
+            "title": "Chef and Two Strings",
+            "url": "https://www.codechef.com/problems/CHEFSTLT"
+          },
+          {
+            "id": 46,
+            "title": "Cipher",
+            "url": "https://www.codechef.com/problems/CIPHERT"
+          },
+          {
+            "id": 47,
+            "title": "Valid Triangles",
+            "url": "https://www.codechef.com/problems/FLOW013"
+          },
+          {
+            "id": 48,
+            "title": "The Smallest Pair",
+            "url": "https://www.codechef.com/problems/SMPAIR"
+          },
+          {
+            "id": 49,
+            "title": "ATM",
+            "url": "https://www.codechef.com/problems/HS08TEST"
+          },
+          {
+            "id": 50,
+            "title": "Enormous Input Test",
+            "url": "https://www.codechef.com/problems/INTEST"
+          },
+          {
+            "id": 51,
+            "title": "Number Mirror",
+            "url": "https://www.codechef.com/problems/START01"
+          },
+          {
+            "id": 52,
+            "title": "Find Remainder",
+            "url": "https://www.codechef.com/problems/FLOW002"
+          },
+          {
+            "id": 53,
+            "title": "Counting Pretty Numbers",
+            "url": "https://www.codechef.com/problems/NUM239"
+          },
+          {
+            "id": 54,
+            "title": "Chef and Feedback",
+            "url": "https://www.codechef.com/problems/ERROR"
+          },
+          {
+            "id": 55,
+            "title": "Chef and String",
+            "url": "https://www.codechef.com/problems/CHEFSTR1"
+          }
+        ]
+      },
+      "pointers": {
+        "easy": [
+          {
+            "id": 56,
+            "title": "Add Two Numbers",
+            "url": "https://www.codechef.com/problems/FLOW001"
+          },
+          {
+            "id": 57,
+            "title": "Sum of Digits",
+            "url": "https://www.codechef.com/problems/FLOW006"
+          },
+          {
+            "id": 58,
+            "title": "Reverse The Number",
+            "url": "https://www.codechef.com/problems/FLOW007"
+          },
+          {
+            "id": 59,
+            "title": "First and Last Digit",
+            "url": "https://www.codechef.com/problems/FLOW004"
+          },
+          {
+            "id": 60,
+            "title": "Lucky Four",
+            "url": "https://www.codechef.com/problems/LUCKFOUR"
+          },
+          {
+            "id": 61,
+            "title": "Chef and Two Strings",
+            "url": "https://www.codechef.com/problems/CHEFSTLT"
+          },
+          {
+            "id": 62,
+            "title": "Cipher",
+            "url": "https://www.codechef.com/problems/CIPHERT"
+          },
+          {
+            "id": 63,
+            "title": "Lapindromes",
+            "url": "https://www.codechef.com/problems/LAPIN"
+          },
+          {
+            "id": 64,
+            "title": "Chef and Feedback",
+            "url": "https://www.codechef.com/problems/ERROR"
+          },
+          {
+            "id": 65,
+            "title": "Chef and String",
+            "url": "https://www.codechef.com/problems/CHEFSTR1"
+          },
+          {
+            "id": 66,
+            "title": "The Smallest Pair",
+            "url": "https://www.codechef.com/problems/SMPAIR"
+          },
+          {
+            "id": 67,
+            "title": "Chef and Dolls",
+            "url": "https://www.codechef.com/problems/MISSP"
+          },
+          {
+            "id": 68,
+            "title": "Chef and his Sequence",
+            "url": "https://www.codechef.com/problems/CHEFSEQ"
+          },
+          {
+            "id": 69,
+            "title": "Ciel and Receipt",
+            "url": "https://www.codechef.com/problems/CIELRCPT"
+          },
+          {
+            "id": 70,
+            "title": "Mahasena",
+            "url": "https://www.codechef.com/problems/AMR15A"
+          }
+        ]
+      },
+      "user_defined_datatypes": {
+        "easy": [
+          {
+            "id": 70,
+            "title": "Chef and his Sequence",
+            "url": "https://www.codechef.com/problems/CHEFSEQ"
+          },
+          {
+            "id": 71,
+            "title": "Chef and Fruits",
+            "url": "https://www.codechef.com/problems/FRUITS"
+          },
+          {
+            "id": 72,
+            "title": "Chef and Dolls",
+            "url": "https://www.codechef.com/problems/MISSP"
+          },
+          {
+            "id": 73,
+            "title": "Mahasena",
+            "url": "https://www.codechef.com/problems/AMR15A"
+          },
+          {
+            "id": 74,
+            "title": "The Smallest Pair",
+            "url": "https://www.codechef.com/problems/SMPAIR"
+          },
+          {
+            "id": 75,
+            "title": "Ciel and Receipt",
+            "url": "https://www.codechef.com/problems/CIELRCPT"
+          },
+          {
+            "id": 76,
+            "title": "Valid Triangles",
+            "url": "https://www.codechef.com/problems/FLOW013"
+          },
+          {
+            "id": 77,
+            "title": "Second Largest",
+            "url": "https://www.codechef.com/problems/SECLAR"
+          },
+          {
+            "id": 78,
+            "title": "Chef and Remissness",
+            "url": "https://www.codechef.com/problems/REMISS"
+          },
+          {
+            "id": 79,
+            "title": "Greedy Puppy",
+            "url": "https://www.codechef.com/problems/GDOG"
+          },
+          {
+            "id": 80,
+            "title": "ATM",
+            "url": "https://www.codechef.com/problems/HS08TEST"
+          },
+          {
+            "id": 81,
+            "title": "Enormous Input Test",
+            "url": "https://www.codechef.com/problems/INTEST"
+          },
+          {
+            "id": 82,
+            "title": "Number Mirror",
+            "url": "https://www.codechef.com/problems/START01"
+          },
+          {
+            "id": 83,
+            "title": "Find Remainder",
+            "url": "https://www.codechef.com/problems/FLOW002"
+          },
+          {
+            "id": 84,
+            "title": "Sum of Digits",
+            "url": "https://www.codechef.com/problems/FLOW006"
+          }
+        ]
+      },
+      "medium": [
+        {
+          "id": 85,
+          "title": "Lapindromes",
+          "url": "https://www.codechef.com/problems/LAPIN",
+          "concept": "Strings"
+        },
+        {
+          "id": 86,
+          "title": "Chef and Two Strings",
+          "url": "https://www.codechef.com/problems/CHEFSTLT",
+          "concept": "Strings"
+        },
+        {
+          "id": 87,
+          "title": "Cipher",
+          "url": "https://www.codechef.com/problems/CIPHERT",
+          "concept": "Strings"
+        },
+        {
+          "id": 88,
+          "title": "Chef and Feedback",
+          "url": "https://www.codechef.com/problems/ERROR",
+          "concept": "Strings"
+        },
+        {
+          "id": 89,
+          "title": "The Smallest Pair",
+          "url": "https://www.codechef.com/problems/SMPAIR",
+          "concept": "Arrays"
+        },
+        {
+          "id": 90,
+          "title": "Greedy Puppy",
+          "url": "https://www.codechef.com/problems/GDOG",
+          "concept": "Numbers"
+        },
+        {
+          "id": 91,
+          "title": "Chef and his Sequence",
+          "url": "https://www.codechef.com/problems/CHEFSEQ",
+          "concept": "Arrays"
+        },
+        {
+          "id": 92,
+          "title": "Ciel and Receipt",
+          "url": "https://www.codechef.com/problems/CIELRCPT",
+          "concept": "Numbers"
+        },
+        {
+          "id": 93,
+          "title": "Chef and Fruits",
+          "url": "https://www.codechef.com/problems/FRUITS",
+          "concept": "Numbers"
+        },
+        {
+          "id": 94,
+          "title": "Mahasena",
+          "url": "https://www.codechef.com/problems/AMR15A",
+          "concept": "Arrays"
+        },
+        {
+          "id": 95,
+          "title": "Turbo Sort",
+          "url": "https://www.codechef.com/problems/TSORT",
+          "concept": "Sorting"
+        },
+        {
+          "id": 96,
+          "title": "Finding Square Roots",
+          "url": "https://www.codechef.com/problems/FSQRT",
+          "concept": "Numbers"
+        },
+        {
+          "id": 97,
+          "title": "Primality Test",
+          "url": "https://www.codechef.com/problems/PRB01",
+          "concept": "Numbers"
+        },
+        {
+          "id": 98,
+          "title": "Factorial",
+          "url": "https://www.codechef.com/problems/FCTRL",
+          "concept": "Numbers"
+        },
+        {
+          "id": 99,
+          "title": "Chef and String",
+          "url": "https://www.codechef.com/problems/CHEFSTR1",
+          "concept": "Strings"
+        },
+        {
+          "id": 100,
+          "title": "Counting Pretty Numbers",
+          "url": "https://www.codechef.com/problems/NUM239",
+          "concept": "Numbers"
+        },
+        {
+          "id": 101,
+          "title": "Richie Rich",
+          "url": "https://www.codechef.com/problems/CHFRICH",
+          "concept": "Numbers"
+        },
+        {
+          "id": 102,
+          "title": "The Two Dishes",
+          "url": "https://www.codechef.com/problems/MAX_DIFF",
+          "concept": "Numbers"
+        },
+        {
+          "id": 103,
+          "title": "Vaccine Dates",
+          "url": "https://www.codechef.com/problems/VDATES",
+          "concept": "Implementation"
+        },
+        {
+          "id": 104,
+          "title": "Motivation",
+          "url": "https://www.codechef.com/problems/IMDB",
+          "concept": "Implementation"
+        },
+        {
+          "id": 105,
+          "title": "Hoop Jump",
+          "url": "https://www.codechef.com/problems/HOOPS",
+          "concept": "Implementation"
+        },
+        {
+          "id": 106,
+          "title": "Two Dishes",
+          "url": "https://www.codechef.com/problems/TWODISH",
+          "concept": "Implementation"
+        },
+        {
+          "id": 107,
+          "title": "Programming Languages",
+          "url": "https://www.codechef.com/problems/PROGLANG",
+          "concept": "Implementation"
+        },
+        {
+          "id": 108,
+          "title": "Problem Category",
+          "url": "https://www.codechef.com/problems/PROBCAT",
+          "concept": "Implementation"
+        },
+        {
+          "id": 109,
+          "title": "Smallest Possible Whole Number",
+          "url": "https://www.codechef.com/problems/SMOL",
+          "concept": "Numbers"
+        },
+        {
+          "id": 110,
+          "title": "Turn It",
+          "url": "https://www.codechef.com/problems/NFS",
+          "concept": "Implementation"
+        },
+        {
+          "id": 111,
+          "title": "Chef and Spells",
+          "url": "https://www.codechef.com/problems/CHFSPL",
+          "concept": "Implementation"
+        },
+        {
+          "id": 112,
+          "title": "Weight Balance",
+          "url": "https://www.codechef.com/problems/WEIGHTBL",
+          "concept": "Implementation"
+        },
+        {
+          "id": 113,
+          "title": "Chef and Stock Prices",
+          "url": "https://www.codechef.com/problems/CSTOCK",
+          "concept": "Implementation"
+        },
+        {
+          "id": 114,
+          "title": "Maximum Length Even Subarray",
+          "url": "https://www.codechef.com/problems/MXEVNSUB",
+          "concept": "Arrays"
+        }
+      ],
+      "hard": [
+        {
+          "id": 115,
+          "title": "Chef and Subarray Queries",
+          "url": "https://www.codechef.com/problems/CSUBQ",
+          "concept": "Segment Trees"
+        },
+        {
+          "id": 116,
+          "title": "Chef and Strings",
+          "url": "https://www.codechef.com/problems/STRQ",
+          "concept": "Strings"
+        },
+        {
+          "id": 117,
+          "title": "Chefs in Queue",
+          "url": "https://www.codechef.com/problems/CHFQUEUE",
+          "concept": "Segment Trees"
+        },
+        {
+          "id": 118,
+          "title": "Sereja and Commands",
+          "url": "https://www.codechef.com/problems/SEACO",
+          "concept": "Segment Trees"
+        },
+        {
+          "id": 119,
+          "title": "Yet Another Problem About Sequences",
+          "url": "https://www.codechef.com/problems/EARTSEQ",
+          "concept": "Number Theory"
+        },
+        {
+          "id": 120,
+          "title": "Lowest Sum",
+          "url": "https://www.codechef.com/problems/LOWSUM",
+          "concept": "Standard Library Template"
+        },
+        {
+          "id": 121,
+          "title": "IPC Trainers",
+          "url": "https://www.codechef.com/problems/IPCTRAIN",
+          "concept": "Standard Library Template"
+        },
+        {
+          "id": 122,
+          "title": "ChefTown Parade",
+          "url": "https://www.codechef.com/problems/CHEFTOWN",
+          "concept": "Standard Library Template"
+        },
+        {
+          "id": 123,
+          "title": "Iron, Magnet and Wall",
+          "url": "https://www.codechef.com/problems/FEMA2",
+          "concept": "Standard Library Template"
+        },
+        {
+          "id": 124,
+          "title": "Chef and Wedding Arrangements",
+          "url": "https://www.codechef.com/problems/CHEFWED",
+          "concept": "Dynamic Programming"
+        },
+        {
+          "id": 125,
+          "title": "Count Subarrays",
+          "url": "https://www.codechef.com/problems/SUBINC",
+          "concept": "Dynamic Programming"
+        },
+        {
+          "id": 126,
+          "title": "Chef and Frogs",
+          "url": "https://www.codechef.com/problems/FROGV",
+          "concept": "Dynamic Programming"
+        },
+        {
+          "id": 127,
+          "title": "Count K-Primes",
+          "url": "https://www.codechef.com/problems/KPRIME",
+          "concept": "Dynamic Programming"
+        },
+        {
+          "id": 128,
+          "title": "XOR with Subset",
+          "url": "https://www.codechef.com/problems/XORSUB",
+          "concept": "Bit Manipulation"
+        },
+        {
+          "id": 129,
+          "title": "XOR Engine",
+          "url": "https://www.codechef.com/problems/ENGXOR",
+          "concept": "Bit Manipulation"
+        },
+        {
+          "id": 130,
+          "title": "Maximum Damage",
+          "url": "https://www.codechef.com/problems/MAXDMGE",
+          "concept": "Bit Manipulation"
+        },
+        {
+          "id": 131,
+          "title": "Chef and Easy Problem",
+          "url": "https://www.codechef.com/problems/XXOR",
+          "concept": "Bit Manipulation"
+        },
+        {
+          "id": 132,
+          "title": "Gcd Queries",
+          "url": "https://www.codechef.com/problems/GCDQ",
+          "concept": "Number Theory"
+        },
+        {
+          "id": 133,
+          "title": "Chef and Keyboard",
+          "url": "https://www.codechef.com/problems/CHEFKEY",
+          "concept": "Number Theory"
+        },
+        {
+          "id": 134,
+          "title": "Appy and Contest",
+          "url": "https://www.codechef.com/problems/HMAPPY2",
+          "concept": "Number Theory"
+        }
+      ]
+    },
+    "javascript": {
+      "easy": [
+        {
+          "id": 134,
+          "title": "Add Two Numbers",
+          "url": "https://www.codechef.com/problems/FLOW001"
+        },
+        {
+          "id": 135,
+          "title": "Find Remainder",
+          "url": "https://www.codechef.com/problems/FLOW002"
+        },
+        {
+          "id": 136,
+          "title": "Sum of Digits",
+          "url": "https://www.codechef.com/problems/FLOW006"
+        },
+        {
+          "id": 137,
+          "title": "Reverse The Number",
+          "url": "https://www.codechef.com/problems/FLOW007"
+        },
+        {
+          "id": 138,
+          "title": "First and Last Digit",
+          "url": "https://www.codechef.com/problems/FLOW004"
+        },
+        {
+          "id": 139,
+          "title": "Number Mirror",
+          "url": "https://www.codechef.com/problems/START01"
+        },
+        {
+          "id": 140,
+          "title": "ATM",
+          "url": "https://www.codechef.com/problems/HS08TEST"
+        },
+        {
+          "id": 141,
+          "title": "Enormous Input Test",
+          "url": "https://www.codechef.com/problems/INTEST"
+        },
+        {
+          "id": 142,
+          "title": "Lucky Four",
+          "url": "https://www.codechef.com/problems/LUCKFOUR"
+        },
+        {
+          "id": 143,
+          "title": "Valid Triangles",
+          "url": "https://www.codechef.com/problems/FLOW013"
+        },
+        {
+          "id": 144,
+          "title": "Chef And Operators",
+          "url": "https://www.codechef.com/problems/CHOPRT"
+        },
+        {
+          "id": 145,
+          "title": "Decrement OR Increment",
+          "url": "https://www.codechef.com/problems/DECINC"
+        },
+        {
+          "id": 146,
+          "title": "Second Largest",
+          "url": "https://www.codechef.com/problems/SECLAR"
+        },
+        {
+          "id": 147,
+          "title": "Chef and Dolls",
+          "url": "https://www.codechef.com/problems/MISSP"
+        },
+        {
+          "id": 148,
+          "title": "Chef and his Sequence",
+          "url": "https://www.codechef.com/problems/CHEFSEQ"
+        },
+        {
+          "id": 149,
+          "title": "Chef and Remissness",
+          "url": "https://www.codechef.com/problems/REMISS"
+        },
+        {
+          "id": 150,
+          "title": "Ciel and Receipt",
+          "url": "https://www.codechef.com/problems/CIELRCPT"
+        },
+        {
+          "id": 151,
+          "title": "Mahasena",
+          "url": "https://www.codechef.com/problems/AMR15A"
+        },
+        {
+          "id": 152,
+          "title": "Greedy Puppy",
+          "url": "https://www.codechef.com/problems/GDOG"
+        },
+        {
+          "id": 153,
+          "title": "Chef and Fruits",
+          "url": "https://www.codechef.com/problems/FRUITS"
+        },
+        {
+          "id": 154,
+          "title": "The Smallest Pair",
+          "url": "https://www.codechef.com/problems/SMPAIR"
+        },
+        {
+          "id": 155,
+          "title": "Lapindromes",
+          "url": "https://www.codechef.com/problems/LAPIN"
+        },
+        {
+          "id": 156,
+          "title": "Chef and Two Strings",
+          "url": "https://www.codechef.com/problems/CHEFSTLT"
+        },
+        {
+          "id": 157,
+          "title": "Cipher",
+          "url": "https://www.codechef.com/problems/CIPHERT"
+        },
+        {
+          "id": 158,
+          "title": "Chef and Feedback",
+          "url": "https://www.codechef.com/problems/ERROR"
+        },
+        {
+          "id": 159,
+          "title": "Chef and String",
+          "url": "https://www.codechef.com/problems/CHEFSTR1"
+        },
+        {
+          "id": 160,
+          "title": "Counting Pretty Numbers",
+          "url": "https://www.codechef.com/problems/NUM239"
+        },
+        {
+          "id": 161,
+          "title": "Small Factorial",
+          "url": "https://www.codechef.com/problems/FLOW018"
+        },
+        {
+          "id": 162,
+          "title": "Turbo Sort",
+          "url": "https://www.codechef.com/problems/TSORT"
+        },
+        {
+          "id": 163,
+          "title": "Finding Square Roots",
+          "url": "https://www.codechef.com/problems/FSQRT"
+        }
+      ],
+      "medium": [
+        {
+          "id": 164,
+          "title": "Lapindromes",
+          "url": "https://www.codechef.com/problems/LAPIN"
+        },
+        {
+          "id": 165,
+          "title": "Chef and Two Strings",
+          "url": "https://www.codechef.com/problems/CHEFSTLT"
+        },
+        {
+          "id": 166,
+          "title": "Cipher",
+          "url": "https://www.codechef.com/problems/CIPHERT"
+        },
+        {
+          "id": 167,
+          "title": "Chef and Feedback",
+          "url": "https://www.codechef.com/problems/ERROR"
+        },
+        {
+          "id": 168,
+          "title": "The Smallest Pair",
+          "url": "https://www.codechef.com/problems/SMPAIR"
+        },
+        {
+          "id": 169,
+          "title": "Greedy Puppy",
+          "url": "https://www.codechef.com/problems/GDOG"
+        },
+        {
+          "id": 170,
+          "title": "Chef and his Sequence",
+          "url": "https://www.codechef.com/problems/CHEFSEQ"
+        },
+        {
+          "id": 171,
+          "title": "Ciel and Receipt",
+          "url": "https://www.codechef.com/problems/CIELRCPT"
+        },
+        {
+          "id": 172,
+          "title": "Chef and Fruits",
+          "url": "https://www.codechef.com/problems/FRUITS"
+        },
+        {
+          "id": 173,
+          "title": "Mahasena",
+          "url": "https://www.codechef.com/problems/AMR15A"
+        },
+        {
+          "id": 174,
+          "title": "Turbo Sort",
+          "url": "https://www.codechef.com/problems/TSORT"
+        },
+        {
+          "id": 175,
+          "title": "Finding Square Roots",
+          "url": "https://www.codechef.com/problems/FSQRT"
+        },
+        {
+          "id": 176,
+          "title": "Primality Test",
+          "url": "https://www.codechef.com/problems/PRB01"
+        },
+        {
+          "id": 177,
+          "title": "Factorial",
+          "url": "https://www.codechef.com/problems/FCTRL"
+        },
+        {
+          "id": 178,
+          "title": "Chef and String",
+          "url": "https://www.codechef.com/problems/CHEFSTR1"
+        },
+        {
+          "id": 179,
+          "title": "Counting Pretty Numbers",
+          "url": "https://www.codechef.com/problems/NUM239"
+        },
+        {
+          "id": 180,
+          "title": "Richie Rich",
+          "url": "https://www.codechef.com/problems/CHFRICH"
+        },
+        {
+          "id": 181,
+          "title": "The Two Dishes",
+          "url": "https://www.codechef.com/problems/MAX_DIFF"
+        },
+        {
+          "id": 182,
+          "title": "Vaccine Dates",
+          "url": "https://www.codechef.com/problems/VDATES"
+        },
+        {
+          "id": 183,
+          "title": "Motivation",
+          "url": "https://www.codechef.com/problems/IMDB"
+        }
+      ],
+      "hard": [
+        {
+          "id": 201,
+          "title": "Chef and Subarray Queries",
+          "url": "https://www.codechef.com/problems/CSUBQ"
+        },
+        {
+          "id": 202,
+          "title": "Chef and Strings",
+          "url": "https://www.codechef.com/problems/STRQ"
+        },
+        {
+          "id": 203,
+          "title": "Chefs in Queue",
+          "url": "https://www.codechef.com/problems/CHFQUEUE"
+        },
+        {
+          "id": 204,
+          "title": "Sereja and Commands",
+          "url": "https://www.codechef.com/problems/SEACO"
+        },
+        {
+          "id": 205,
+          "title": "Yet Another Problem About Sequences",
+          "url": "https://www.codechef.com/problems/EARTSEQ"
+        },
+        {
+          "id": 206,
+          "title": "Lowest Sum",
+          "url": "https://www.codechef.com/problems/LOWSUM"
+        },
+        {
+          "id": 207,
+          "title": "IPC Trainers",
+          "url": "https://www.codechef.com/problems/IPCTRAIN"
+        },
+        {
+          "id": 208,
+          "title": "ChefTown Parade",
+          "url": "https://www.codechef.com/problems/CHEFTOWN"
+        },
+        {
+          "id": 209,
+          "title": "Iron, Magnet and Wall",
+          "url": "https://www.codechef.com/problems/FEMA2"
+        },
+        {
+          "id": 210,
+          "title": "Chef and Wedding Arrangements",
+          "url": "https://www.codechef.com/problems/CHEFWED"
+        },
+        {
+          "id": 211,
+          "title": "Count Subarrays",
+          "url": "https://www.codechef.com/problems/SUBINC"
+        },
+        {
+          "id": 212,
+          "title": "Chef and Frogs",
+          "url": "https://www.codechef.com/problems/FROGV"
+        },
+        {
+          "id": 213,
+          "title": "Count K-Primes",
+          "url": "https://www.codechef.com/problems/KPRIME"
+        },
+        {
+          "id": 214,
+          "title": "XOR with Subset",
+          "url": "https://www.codechef.com/problems/XORSUB"
+        },
+        {
+          "id": 215,
+          "title": "XOR Engine",
+          "url": "https://www.codechef.com/problems/ENGXOR"
+        },
+        {
+          "id": 216,
+          "title": "Maximum Damage",
+          "url": "https://www.codechef.com/problems/MAXDMGE"
+        },
+        {
+          "id": 217,
+          "title": "Chef and Easy Problem",
+          "url": "https://www.codechef.com/problems/XXOR"
+        },
+        {
+          "id": 218,
+          "title": "Gcd Queries",
+          "url": "https://www.codechef.com/problems/GCDQ"
+        },
+        {
+          "id": 219,
+          "title": "Chef and Keyboard",
+          "url": "https://www.codechef.com/problems/CHEFKEY"
+        },
+        {
+          "id": 220,
+          "title": "Appy and Contest",
+          "url": "https://www.codechef.com/problems/HMAPPY2"
+        }
+      ]
+    }
+  }
+}

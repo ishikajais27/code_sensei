@@ -1,24 +1,26 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Code, Trophy, Zap, ExternalLink } from 'lucide-react'
 import { Chart, registerables } from 'chart.js'
-import leetcode from './leetcode.json' // Import the JSON data
-import Calendar from 'react-calendar' // Import react-calendar
-import 'react-calendar/dist/Calendar.css' // Default calendar styles
+import leetcode from '../../backend/data/leetcode.json'
+import hackerrank from '../../backend/data/hackerrank.json'
+import codechef from '../../backend/data/codechef.json'
+import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css'
 import './Code.css'
 Chart.register(...registerables)
 
-const CodingQuestionTracker = () => {
+const CodingTracker = () => {
   const [questions, setQuestions] = useState([])
   const [solvedQuestions, setSolvedQuestions] = useState([])
   const [streak, setStreak] = useState(0)
   const [achievements, setAchievements] = useState([])
-  const [platform, setPlatform] = useState('leetcode') // Default platform
-  const [language, setLanguage] = useState('Programming Language') // Default language
-  const [difficulty, setDifficulty] = useState('easy') // Default difficulty
-  const [topic, setTopic] = useState('Operators') // Default topic
+  const [platform, setPlatform] = useState('leetcode')
+  const [language, setLanguage] = useState('Programming Language')
+  const [difficulty, setDifficulty] = useState('easy')
+  const [topic, setTopic] = useState('Operators')
   const [loading, setLoading] = useState(false)
   const [todaySolvedCount, setTodaySolvedCount] = useState(0)
-  const [activityDates, setActivityDates] = useState([]) // Track dates of solved questions
+  const [activityDates, setActivityDates] = useState([])
 
   // Load today's solved questions from localStorage
   useEffect(() => {
@@ -55,18 +57,35 @@ const CodingQuestionTracker = () => {
     const loadQuestions = () => {
       setLoading(true)
       let fetchedQuestions = []
-      if (language === 'Programming Language') {
-        if (difficulty === 'easy') {
-          fetchedQuestions =
-            leetcode[platform]?.[language]?.[topic]?.[difficulty] || []
+
+      try {
+        // Determine which data source to use based on platform
+        const dataSource =
+          platform === 'leetcode'
+            ? leetcode
+            : platform === 'hackerrank'
+            ? hackerrank
+            : codechef
+
+        if (language === 'Programming Language') {
+          if (difficulty === 'easy') {
+            fetchedQuestions =
+              dataSource[platform]?.[language]?.[topic]?.[difficulty] || []
+          } else {
+            fetchedQuestions =
+              dataSource[platform]?.[language]?.[difficulty] || []
+          }
         } else {
-          fetchedQuestions = leetcode[platform]?.[language]?.[difficulty] || []
+          fetchedQuestions =
+            dataSource[platform]?.[language]?.[difficulty] || []
         }
-      } else {
-        fetchedQuestions = leetcode[platform]?.[language]?.[difficulty] || []
+        console.log('Fetched Questions:', fetchedQuestions)
+        setQuestions(fetchedQuestions)
+      } catch (error) {
+        console.error('Error loading questions:', error)
+        setQuestions([])
       }
-      console.log('Fetched Questions:', fetchedQuestions) // Debugging
-      setQuestions(fetchedQuestions)
+
       setLoading(false)
     }
     loadQuestions()
@@ -82,7 +101,7 @@ const CodingQuestionTracker = () => {
       setTodaySolvedCount(newCount)
 
       // Update activity dates
-      const today = new Date().toISOString().split('T')[0] // Get today's date in YYYY-MM-DD format
+      const today = new Date().toISOString().split('T')[0]
       const updatedActivityDates = [...activityDates, today]
       setActivityDates(updatedActivityDates)
 
@@ -92,6 +111,7 @@ const CodingQuestionTracker = () => {
         'activityDates',
         JSON.stringify(updatedActivityDates)
       )
+      localStorage.setItem('lastUpdated', new Date().toISOString())
 
       checkAchievements()
       updateStreak()
@@ -126,8 +146,8 @@ const CodingQuestionTracker = () => {
   }
 
   return (
-    <div className="w-7xl p-2">
-      <div className="bg-gray-900 text-white p-9 rounded-lg shadow-2xl">
+    <div className="w-full max-w-7xl mx-auto p-4">
+      <div className="bg-gray-900 text-white p-6 rounded-lg shadow-2xl">
         <h2 className="text-2xl font-bold flex items-center mb-4">
           <Code className="mr-2" /> Coding Question Tracker
         </h2>
@@ -141,12 +161,12 @@ const CodingQuestionTracker = () => {
         </div>
 
         {/* Platform, Language, Difficulty, and Topic Selection */}
-        <div className="flex space-x-4 mb-4">
+        <div className="flex flex-wrap gap-4 mb-4">
           {/* Platform Filter */}
           <select
             value={platform}
             onChange={(e) => setPlatform(e.target.value)}
-            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2"
+            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
           >
             <option value="leetcode">LeetCode</option>
             <option value="hackerrank">HackerRank</option>
@@ -157,17 +177,20 @@ const CodingQuestionTracker = () => {
           <select
             value={language}
             onChange={(e) => setLanguage(e.target.value)}
-            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2"
+            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
           >
             <option value="Programming Language">Programming Language</option>
             <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="cpp">C++</option>
           </select>
 
           {/* Difficulty Filter */}
           <select
             value={difficulty}
             onChange={(e) => setDifficulty(e.target.value)}
-            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2"
+            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
           >
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
@@ -179,35 +202,39 @@ const CodingQuestionTracker = () => {
             <select
               value={topic}
               onChange={(e) => setTopic(e.target.value)}
-              className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2"
+              className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
             >
               <option value="Operators">Operators</option>
               <option value="Control-Statements">Control Statements</option>
-              <option value="array_and_string">array_and_string</option>
-              <option value="pointers">pointers</option>
+              <option value="array_and_string">Array and String</option>
+              <option value="pointers">Pointers</option>
               <option value="user_defined_datatypes">
-                user_defined_datatypes
+                User Defined Datatypes
               </option>
             </select>
           )}
         </div>
 
         {/* Questions List */}
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold flex items-center">
+        <div className="mb-6">
+          <h3 className="text-lg font-semibold flex items-center mb-3">
             <Zap className="mr-2 text-yellow-400" /> Questions
           </h3>
           {loading ? (
-            <p>Loading questions...</p>
+            <p className="text-gray-300">Loading questions...</p>
+          ) : questions.length === 0 ? (
+            <p className="text-gray-300">
+              No questions available for this selection.
+            </p>
           ) : (
-            <ul>
+            <div className="space-y-3">
               {questions.map((question) => (
-                <li
+                <div
                   key={question.id}
-                  className="flex justify-between items-center mb-2"
+                  className="flex justify-between items-center bg-gray-800 p-3 rounded-lg"
                 >
-                  <div>
-                    <span>{question.title}</span>
+                  <div className="flex items-center">
+                    <span className="text-white">{question.title}</span>
                     <a
                       href={question.url}
                       target="_blank"
@@ -219,54 +246,67 @@ const CodingQuestionTracker = () => {
                   </div>
                   <button
                     onClick={() => markSolved(question.id)}
-                    className={`px-2 py-1 rounded ${
+                    disabled={solvedQuestions.includes(question.id)}
+                    className={`px-4 py-2 rounded transition-colors ${
                       solvedQuestions.includes(question.id)
-                        ? 'bg-green-600'
-                        : 'bg-blue-600'
+                        ? 'bg-green-600 text-white cursor-not-allowed'
+                        : 'bg-blue-600 hover:bg-blue-700 text-white'
                     }`}
                   >
                     {solvedQuestions.includes(question.id)
-                      ? 'Solved'
+                      ? 'Solved ✓'
                       : 'Mark as Solved'}
                   </button>
-                </li>
+                </div>
               ))}
-            </ul>
+            </div>
           )}
         </div>
 
         {/* Streak */}
         <div className="flex items-center mb-4">
-          <span className="text-sm">🔥 {streak}-day streak!</span>
+          <span className="text-lg">🔥 {streak}-day streak!</span>
         </div>
 
         {/* Achievements */}
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold flex items-center">
+        <div className="mb-6">
+          <h3 className="text-lg font-semibold flex items-center mb-3">
             <Trophy className="mr-2 text-yellow-400" /> Achievements
           </h3>
-          <ul>
-            {achievements.map((achievement, index) => (
-              <li key={index} className="text-sm">
-                🏆 {achievement}
-              </li>
-            ))}
-          </ul>
+          {achievements.length === 0 ? (
+            <p className="text-gray-300">
+              No achievements unlocked yet. Keep solving!
+            </p>
+          ) : (
+            <div className="space-y-2">
+              {achievements.map((achievement, index) => (
+                <div
+                  key={index}
+                  className="bg-gray-800 p-2 rounded flex items-center"
+                >
+                  <span className="text-yellow-400 mr-2">🏆</span>
+                  <span className="text-white">{achievement}</span>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Custom Activity Calendar */}
         <div className="mb-4">
-          <h3 className="text-lg font-semibold flex items-center">
-            <Zap className="mr-2 text-green-400 my-8" /> Activity Calendar
+          <h3 className="text-lg font-semibold flex items-center mb-4">
+            <Zap className="mr-2 text-green-400" /> Activity Calendar
           </h3>
-          <Calendar
-            tileContent={tileContent} // Highlight active dates
-            className="custom-calendar bg-gray-800 text-white rounded-lg p-2"
-          />
+          <div className="bg-gray-800 p-4 rounded-lg">
+            <Calendar
+              tileContent={tileContent}
+              className="custom-calendar text-white"
+            />
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default CodingQuestionTracker
+export default CodingTracker

@@ -1,0 +1,1117 @@
+{
+"hackerrank": {
+"Programming Language": {
+"Operators": {
+"easy": [
+{
+"id": 1,
+"title": "Operators",
+"url": "https://www.hackerrank.com/challenges/30-operators/"
+},
+{
+"id": 2,
+"title": "Bitwise Operators",
+"url": "https://www.hackerrank.com/challenges/bitwise-operators-in-c/"
+},
+{
+"id": 3,
+"title": "Bitwise AND",
+"url": "https://www.hackerrank.com/challenges/30-bitwise-and/"
+},
+{
+"id": 4,
+"title": "Binary Numbers",
+"url": "https://www.hackerrank.com/challenges/30-binary-numbers/"
+},
+{
+"id": 5,
+"title": "Solve Me First",
+"url": "https://www.hackerrank.com/challenges/solve-me-first/"
+},
+{
+"id": 6,
+"title": "Simple Array Sum",
+"url": "https://www.hackerrank.com/challenges/simple-array-sum/"
+},
+{
+"id": 7,
+"title": "A Very Big Sum",
+"url": "https://www.hackerrank.com/challenges/a-very-big-sum/"
+},
+{
+"id": 8,
+"title": "Plus Minus",
+"url": "https://www.hackerrank.com/challenges/plus-minus/"
+},
+{
+"id": 9,
+"title": "Mini-Max Sum",
+"url": "https://www.hackerrank.com/challenges/mini-max-sum/"
+},
+{
+"id": 10,
+"title": "Birthday Cake Candles",
+"url": "https://www.hackerrank.com/challenges/birthday-cake-candles/"
+}
+]
+},
+"Control-Statements": {
+"easy": [
+{
+"id": 11,
+"title": "Intro to Conditional Statements",
+"url": "https://www.hackerrank.com/challenges/30-conditional-statements/"
+},
+{
+"id": 12,
+"title": "Conditional Statements in C",
+"url": "https://www.hackerrank.com/challenges/conditional-statements-in-c/"
+},
+{
+"id": 13,
+"title": "Loops",
+"url": "https://www.hackerrank.com/challenges/30-loops/"
+},
+{
+"id": 14,
+"title": "For Loop in C",
+"url": "https://www.hackerrank.com/challenges/for-loop-in-c/"
+},
+{
+"id": 15,
+"title": "Nested Logic",
+"url": "https://www.hackerrank.com/challenges/30-nested-logic/"
+},
+{
+"id": 16,
+"title": "Grading Students",
+"url": "https://www.hackerrank.com/challenges/grading/"
+},
+{
+"id": 17,
+"title": "Apple and Orange",
+"url": "https://www.hackerrank.com/challenges/apple-and-orange/"
+},
+{
+"id": 18,
+"title": "Number Line Jumps",
+"url": "https://www.hackerrank.com/challenges/kangaroo/"
+},
+{
+"id": 19,
+"title": "Between Two Sets",
+"url": "https://www.hackerrank.com/challenges/between-two-sets/"
+},
+{
+"id": 20,
+"title": "Breaking the Records",
+"url": "https://www.hackerrank.com/challenges/breaking-best-and-worst-records/"
+}
+]
+},
+"Functions": {
+"easy": [
+{
+"id": 21,
+"title": "Functions in C",
+"url": "https://www.hackerrank.com/challenges/functions-in-c/"
+},
+{
+"id": 22,
+"title": "Variadic functions in C",
+"url": "https://www.hackerrank.com/challenges/variadic-functions-in-c/"
+},
+{
+"id": 23,
+"title": "Recursion",
+"url": "https://www.hackerrank.com/challenges/30-recursion/"
+},
+{
+"id": 24,
+"title": "Calculate the Nth term",
+"url": "https://www.hackerrank.com/challenges/calculate-the-nth-term/"
+},
+{
+"id": 25,
+"title": "Students Marks Sum",
+"url": "https://www.hackerrank.com/challenges/students-marks-sum/"
+},
+{
+"id": 26,
+"title": "Sum of Digits of a Five Digit Number",
+"url": "https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/"
+},
+{
+"id": 27,
+"title": "Digit Frequency",
+"url": "https://www.hackerrank.com/challenges/digit-frequency/"
+},
+{
+"id": 28,
+"title": "Printing Tokens",
+"url": "https://www.hackerrank.com/challenges/printing-tokens/"
+},
+{
+"id": 29,
+"title": "Printing Pattern Using Loops",
+"url": "https://www.hackerrank.com/challenges/printing-pattern-2/"
+},
+{
+"id": 30,
+"title": "Running Time and Complexity",
+"url": "https://www.hackerrank.com/challenges/30-running-time-and-complexity/"
+}
+]
+},
+"array_and_string": {
+"easy": [
+{
+"id": 31,
+"title": "Arrays",
+"url": "https://www.hackerrank.com/challenges/30-arrays/"
+},
+{
+"id": 32,
+"title": "1D Arrays in C",
+"url": "https://www.hackerrank.com/challenges/1d-arrays-in-c/"
+},
+{
+"id": 33,
+"title": "Array Reversal",
+"url": "https://www.hackerrank.com/challenges/array-reversal/"
+},
+{
+"id": 34,
+"title": "Dynamic Array in C",
+"url": "https://www.hackerrank.com/challenges/dynamic-array-in-c/"
+},
+{
+"id": 35,
+"title": "2D Arrays",
+"url": "https://www.hackerrank.com/challenges/30-2d-arrays/"
+},
+{
+"id": 36,
+"title": "Arrays - DS",
+"url": "https://www.hackerrank.com/challenges/arrays-ds/"
+},
+{
+"id": 37,
+"title": "2D Array - DS",
+"url": "https://www.hackerrank.com/challenges/2d-array/"
+},
+{
+"id": 38,
+"title": "Sorting Array of Strings",
+"url": "https://www.hackerrank.com/challenges/sorting-array-of-strings/"
+},
+{
+"id": 39,
+"title": "Permutations of Strings",
+"url": "https://www.hackerrank.com/challenges/permutations-of-strings/"
+},
+{
+"id": 40,
+"title": "Simple Array Sum",
+"url": "https://www.hackerrank.com/challenges/simple-array-sum/"
+},
+{
+"id": 41,
+"title": "Compare the Triplets",
+"url": "https://www.hackerrank.com/challenges/compare-the-triplets/"
+},
+{
+"id": 42,
+"title": "Diagonal Difference",
+"url": "https://www.hackerrank.com/challenges/diagonal-difference/"
+},
+{
+"id": 43,
+"title": "Staircase",
+"url": "https://www.hackerrank.com/challenges/staircase/"
+},
+{
+"id": 44,
+"title": "Time Conversion",
+"url": "https://www.hackerrank.com/challenges/time-conversion/"
+},
+{
+"id": 45,
+"title": "Let’s Review",
+"url": "https://www.hackerrank.com/challenges/30-lets-review/"
+},
+{
+"id": 46,
+"title": "Pangrams",
+"url": "https://www.hackerrank.com/challenges/pangrams/"
+},
+{
+"id": 47,
+"title": "Funny String",
+"url": "https://www.hackerrank.com/challenges/funny-string/"
+},
+{
+"id": 48,
+"title": "Gemstones",
+"url": "https://www.hackerrank.com/challenges/gem-stones/"
+},
+{
+"id": 49,
+"title": "Alternating Characters",
+"url": "https://www.hackerrank.com/challenges/alternating-characters/"
+},
+{
+"id": 50,
+"title": "Beautiful Binary String",
+"url": "https://www.hackerrank.com/challenges/beautiful-binary-string/"
+},
+{
+"id": 51,
+"title": "The Love-Letter Mystery",
+"url": "https://www.hackerrank.com/challenges/the-love-letter-mystery/"
+},
+{
+"id": 52,
+"title": "HackerRank in a String!",
+"url": "https://www.hackerrank.com/challenges/hackerrank-in-a-string/"
+},
+{
+"id": 53,
+"title": "Separate the Numbers",
+"url": "https://www.hackerrank.com/challenges/separate-the-numbers/"
+},
+{
+"id": 54,
+"title": "Weighted Uniform Strings",
+"url": "https://www.hackerrank.com/challenges/weighted-uniform-strings/"
+},
+{
+"id": 55,
+"title": "String Construction",
+"url": "https://www.hackerrank.com/challenges/string-construction/"
+}
+]
+},
+"pointers": {
+"easy": [
+{
+"id": 56,
+"title": "Pointers in C",
+"url": "https://www.hackerrank.com/challenges/pointer-in-c/"
+},
+{
+"id": 57,
+"title": "1D Arrays in C",
+"url": "https://www.hackerrank.com/challenges/1d-arrays-in-c/"
+},
+{
+"id": 58,
+"title": "Array Reversal",
+"url": "https://www.hackerrank.com/challenges/array-reversal/"
+},
+{
+"id": 59,
+"title": "Dynamic Array in C",
+"url": "https://www.hackerrank.com/challenges/dynamic-array-in-c/"
+},
+{
+"id": 60,
+"title": "Printing Tokens",
+"url": "https://www.hackerrank.com/challenges/printing-tokens/"
+},
+{
+"id": 61,
+"title": "Digit Frequency",
+"url": "https://www.hackerrank.com/challenges/digit-frequency/"
+},
+{
+"id": 62,
+"title": "Sorting Array of Strings",
+"url": "https://www.hackerrank.com/challenges/sorting-array-of-strings/"
+},
+{
+"id": 63,
+"title": "Permutations of Strings",
+"url": "https://www.hackerrank.com/challenges/permutations-of-strings/"
+},
+{
+"id": 64,
+"title": "Querying the Document",
+"url": "https://www.hackerrank.com/challenges/querying-the-document/"
+},
+{
+"id": 65,
+"title": "Linked List",
+"url": "https://www.hackerrank.com/challenges/30-linked-list/"
+},
+{
+"id": 66,
+"title": "More Linked Lists",
+"url": "https://www.hackerrank.com/challenges/30-linked-list-deletion/"
+},
+{
+"id": 67,
+"title": "Printing Pattern Using Loops",
+"url": "https://www.hackerrank.com/challenges/printing-pattern-2/"
+},
+{
+"id": 68,
+"title": "Sum of Digits of a Five Digit Number",
+"url": "https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/"
+},
+{
+"id": 69,
+"title": "Bitwise Operators",
+"url": "https://www.hackerrank.com/challenges/bitwise-operators-in-c/"
+},
+{
+"id": 70,
+"title": "Variadic functions in C",
+"url": "https://www.hackerrank.com/challenges/variadic-functions-in-c/"
+}
+]
+},
+"user_defined_datatypes": {
+"easy": [
+{
+"id": 70,
+"title": "Small Triangles, Large Triangles",
+"url": "https://www.hackerrank.com/challenges/small-triangles-large-triangles/"
+},
+{
+"id": 71,
+"title": "Boxes through a Tunnel",
+"url": "https://www.hackerrank.com/challenges/boxes-through-a-tunnel/"
+},
+{
+"id": 72,
+"title": "Structuring the Document",
+"url": "https://www.hackerrank.com/challenges/structuring-the-document/"
+},
+{
+"id": 73,
+"title": "Post Transition",
+"url": "https://www.hackerrank.com/challenges/post-transition/"
+},
+{
+"id": 74,
+"title": "Class vs. Instance",
+"url": "https://www.hackerrank.com/challenges/30-class-vs-instance/"
+},
+{
+"id": 75,
+"title": "Inheritance",
+"url": "https://www.hackerrank.com/challenges/30-inheritance/"
+},
+{
+"id": 76,
+"title": "Abstract Classes",
+"url": "https://www.hackerrank.com/challenges/30-abstract-classes/"
+},
+{
+"id": 77,
+"title": "Scope",
+"url": "https://www.hackerrank.com/challenges/30-scope/"
+},
+{
+"id": 78,
+"title": "Interfaces",
+"url": "https://www.hackerrank.com/challenges/30-interfaces/"
+},
+{
+"id": 79,
+"title": "More Exceptions",
+"url": "https://www.hackerrank.com/challenges/30-more-exceptions/"
+},
+{
+"id": 80,
+"title": "Binary Search Trees",
+"url": "https://www.hackerrank.com/challenges/30-binary-search-trees/"
+},
+{
+"id": 81,
+"title": "BST Level-Order Traversal",
+"url": "https://www.hackerrank.com/challenges/30-binary-trees/"
+},
+{
+"id": 82,
+"title": "Queues and Stacks",
+"url": "https://www.hackerrank.com/challenges/30-queues-stacks/"
+},
+{
+"id": 83,
+"title": "Dictionaries and Maps",
+"url": "https://www.hackerrank.com/challenges/30-dictionaries-and-maps/"
+},
+{
+"id": 84,
+"title": "Generics",
+"url": "https://www.hackerrank.com/challenges/30-generics/"
+}
+]
+},
+"medium": [
+{
+"id": 85,
+"title": "Angry Professor",
+"url": "https://www.hackerrank.com/challenges/angry-professor/",
+"concept": "Implementation"
+},
+{
+"id": 86,
+"title": "Extra Long Factorials",
+"url": "https://www.hackerrank.com/challenges/extra-long-factorials/",
+"concept": "Implementation"
+},
+{
+"id": 87,
+"title": "Sherlock and Squares",
+"url": "https://www.hackerrank.com/challenges/sherlock-and-squares/",
+"concept": "Implementation"
+},
+{
+"id": 88,
+"title": "Library Fine",
+"url": "https://www.hackerrank.com/challenges/library-fine/",
+"concept": "Implementation"
+},
+{
+"id": 89,
+"title": "Cut the sticks",
+"url": "https://www.hackerrank.com/challenges/cut-the-sticks/",
+"concept": "Implementation"
+},
+{
+"id": 90,
+"title": "Non-Divisible Subset",
+"url": "https://www.hackerrank.com/challenges/non-divisible-subset/",
+"concept": "Implementation"
+},
+{
+"id": 91,
+"title": "Repeated String",
+"url": "https://www.hackerrank.com/challenges/repeated-string/",
+"concept": "Strings"
+},
+{
+"id": 92,
+"title": "Jumping on the Clouds",
+"url": "https://www.hackerrank.com/challenges/jumping-on-the-clouds/",
+"concept": "Implementation"
+},
+{
+"id": 93,
+"title": "Equalize the Array",
+"url": "https://www.hackerrank.com/challenges/equality-in-a-array/",
+"concept": "Implementation"
+},
+{
+"id": 94,
+"title": "Queen's Attack II",
+"url": "https://www.hackerrank.com/challenges/queens-attack-2/",
+"concept": "Implementation"
+},
+{
+"id": 95,
+"title": "ACM ICPC Team",
+"url": "https://www.hackerrank.com/challenges/acm-icpc-team/",
+"concept": "Implementation"
+},
+{
+"id": 96,
+"title": "Taum and B'day",
+"url": "https://www.hackerrank.com/challenges/taum-and-bday/",
+"concept": "Implementation"
+},
+{
+"id": 97,
+"title": "Organizing Containers of Balls",
+"url": "https://www.hackerrank.com/challenges/organizing-containers-of-balls/",
+"concept": "Implementation"
+},
+{
+"id": 98,
+"title": "Encryption",
+"url": "https://www.hackerrank.com/challenges/encryption/",
+"concept": "Strings"
+},
+{
+"id": 99,
+"title": "Bigger is Greater",
+"url": "https://www.hackerrank.com/challenges/bigger-is-greater/",
+"concept": "Strings"
+},
+{
+"id": 100,
+"title": "Modified Kaprekar Numbers",
+"url": "https://www.hackerrank.com/challenges/kaprekar-numbers/",
+"concept": "Implementation"
+},
+{
+"id": 101,
+"title": "Beautiful Triplets",
+"url": "https://www.hackerrank.com/challenges/beautiful-triplets/",
+"concept": "Implementation"
+},
+{
+"id": 102,
+"title": "Append and Delete",
+"url": "https://www.hackerrank.com/challenges/append-and-delete/",
+"concept": "Strings"
+},
+{
+"id": 103,
+"title": "HackerRank in a String!",
+"url": "https://www.hackerrank.com/challenges/hackerrank-in-a-string/",
+"concept": "Strings"
+},
+{
+"id": 104,
+"title": "Pangrams",
+"url": "https://www.hackerrank.com/challenges/pangrams/",
+"concept": "Strings"
+},
+{
+"id": 105,
+"title": "Weighted Uniform Strings",
+"url": "https://www.hackerrank.com/challenges/weighted-uniform-strings/",
+"concept": "Strings"
+},
+{
+"id": 106,
+"title": "Separate the Numbers",
+"url": "https://www.hackerrank.com/challenges/separate-the-numbers/",
+"concept": "Strings"
+},
+{
+"id": 107,
+"title": "Funny String",
+"url": "https://www.hackerrank.com/challenges/funny-string/",
+"concept": "Strings"
+},
+{
+"id": 108,
+"title": "Gemstones",
+"url": "https://www.hackerrank.com/challenges/gem-stones/",
+"concept": "Strings"
+},
+{
+"id": 109,
+"title": "Alternating Characters",
+"url": "https://www.hackerrank.com/challenges/alternating-characters/",
+"concept": "Strings"
+},
+{
+"id": 110,
+"title": "Beautiful Binary String",
+"url": "https://www.hackerrank.com/challenges/beautiful-binary-string/",
+"concept": "Strings"
+},
+{
+"id": 111,
+"title": "The Love-Letter Mystery",
+"url": "https://www.hackerrank.com/challenges/the-love-letter-mystery/",
+"concept": "Strings"
+},
+{
+"id": 112,
+"title": "Palindrome Index",
+"url": "https://www.hackerrank.com/challenges/palindrome-index/",
+"concept": "Strings"
+},
+{
+"id": 113,
+"title": "Anagram",
+"url": "https://www.hackerrank.com/challenges/anagram/",
+"concept": "Strings"
+},
+{
+"id": 114,
+"title": "Making Anagrams",
+"url": "https://www.hackerrank.com/challenges/making-anagrams/",
+"concept": "Strings"
+}
+],
+"hard": [
+{
+"id": 115,
+"title": "Matrix Layer Rotation",
+"url": "https://www.hackerrank.com/challenges/matrix-layer-rotation/",
+"concept": "Implementation"
+},
+{
+"id": 116,
+"title": "The Bomberman Game",
+"url": "https://www.hackerrank.com/challenges/bomber-man/",
+"concept": "Implementation"
+},
+{
+"id": 117,
+"title": "Dijkstra: Shortest Reach 2",
+"url": "https://www.hackerrank.com/challenges/dijkstrashortreach/",
+"concept": "Graph Theory"
+},
+{
+"id": 118,
+"title": "Almost Sorted",
+"url": "https://www.hackerrank.com/challenges/almost-sorted/",
+"concept": "Sorting"
+},
+{
+"id": 119,
+"title": "Absolute Element Sums",
+"url": "https://www.hackerrank.com/challenges/playing-with-numbers/",
+"concept": "Implementation"
+},
+{
+"id": 120,
+"title": "The Coin Change Problem",
+"url": "https://www.hackerrank.com/challenges/coin-change/",
+"concept": "Dynamic Programming"
+},
+{
+"id": 121,
+"title": "Equal",
+"url": "https://www.hackerrank.com/challenges/equal/",
+"concept": "Dynamic Programming"
+},
+{
+"id": 122,
+"title": "The Maximum Subarray",
+"url": "https://www.hackerrank.com/challenges/maxsubarray/",
+"concept": "Dynamic Programming"
+},
+{
+"id": 123,
+"title": "Journey to the Moon",
+"url": "https://www.hackerrank.com/challenges/journey-to-the-moon/",
+"concept": "Graph Theory"
+},
+{
+"id": 124,
+"title": "Red Knight's Shortest Path",
+"url": "https://www.hackerrank.com/challenges/red-knights-shortest-path/",
+"concept": "Graph Theory"
+},
+{
+"id": 125,
+"title": "Abbreviation",
+"url": "https://www.hackerrank.com/challenges/abbreviation/",
+"concept": "Dynamic Programming"
+},
+{
+"id": 126,
+"title": "Common Child",
+"url": "https://www.hackerrank.com/challenges/common-child/",
+"concept": "Strings"
+},
+{
+"id": 127,
+"title": "Sherlock and Anagrams",
+"url": "https://www.hackerrank.com/challenges/sherlock-and-anagrams/",
+"concept": "Strings"
+},
+{
+"id": 128,
+"title": "HackerRank City",
+"url": "https://www.hackerrank.com/challenges/hr-city/",
+"concept": "Implementation"
+},
+{
+"id": 129,
+"title": "Array Construction",
+"url": "https://www.hackerrank.com/challenges/array-construction/",
+"concept": "Constructive Algorithms"
+},
+{
+"id": 130,
+"title": "Sherlock and the Valid String",
+"url": "https://www.hackerrank.com/challenges/sherlock-and-valid-string/",
+"concept": "Strings"
+},
+{
+"id": 131,
+"title": "Special String Again",
+"url": "https://www.hackerrank.com/challenges/special-palindrome-again/",
+"concept": "Strings"
+},
+{
+"id": 132,
+"title": "Candies",
+"url": "https://www.hackerrank.com/challenges/candies/",
+"concept": "Dynamic Programming"
+},
+{
+"id": 133,
+"title": "Decibinary Numbers",
+"url": "https://www.hackerrank.com/challenges/decibinary-numbers/",
+"concept": "Dynamic Programming"
+},
+{
+"id": 134,
+"title": "Constructing a Number",
+"url": "https://www.hackerrank.com/challenges/constructing-a-number/",
+"concept": "Dynamic Programming"
+}
+]
+},
+"javascript": {
+"easy": [
+{
+"id": 134,
+"title": "Hello, World!",
+"url": "https://www.hackerrank.com/challenges/js10-hello-world/"
+},
+{
+"id": 135,
+"title": "Data Types",
+"url": "https://www.hackerrank.com/challenges/js10-data-types/"
+},
+{
+"id": 136,
+"title": "Operators",
+"url": "https://www.hackerrank.com/challenges/js10-arithmetic-operators/"
+},
+{
+"id": 137,
+"title": "Conditional Statements",
+"url": "https://www.hackerrank.com/challenges/js10-if-else/"
+},
+{
+"id": 138,
+"title": "Class Syntax",
+"url": "https://www.hackerrank.com/challenges/js10-class/"
+},
+{
+"id": 139,
+"title": "Inheritance",
+"url": "https://www.hackerrank.com/challenges/js10-inheritance/"
+},
+{
+"id": 140,
+"title": "Arrays",
+"url": "https://www.hackerrank.com/challenges/js10-arrays/"
+},
+{
+"id": 141,
+"title": "Regular Expressions I",
+"url": "https://www.hackerrank.com/challenges/js10-regexp-1/"
+},
+{
+"id": 142,
+"title": "Buttons Container",
+"url": "https://www.hackerrank.com/challenges/js10-buttons-container/"
+},
+{
+"id": 143,
+"title": "Binary Calculator",
+"url": "https://www.hackerrank.com/challenges/js10-binary-calculator/"
+},
+{
+"id": 144,
+"title": "Solve Me First",
+"url": "https://www.hackerrank.com/challenges/solve-me-first/"
+},
+{
+"id": 145,
+"title": "Simple Array Sum",
+"url": "https://www.hackerrank.com/challenges/simple-array-sum/"
+},
+{
+"id": 146,
+"title": "Compare the Triplets",
+"url": "https://www.hackerrank.com/challenges/compare-the-triplets/"
+},
+{
+"id": 147,
+"title": "A Very Big Sum",
+"url": "https://www.hackerrank.com/challenges/a-very-big-sum/"
+},
+{
+"id": 148,
+"title": "Diagonal Difference",
+"url": "https://www.hackerrank.com/challenges/diagonal-difference/"
+},
+{
+"id": 149,
+"title": "Plus Minus",
+"url": "https://www.hackerrank.com/challenges/plus-minus/"
+},
+{
+"id": 150,
+"title": "Staircase",
+"url": "https://www.hackerrank.com/challenges/staircase/"
+},
+{
+"id": 151,
+"title": "Mini-Max Sum",
+"url": "https://www.hackerrank.com/challenges/mini-max-sum/"
+},
+{
+"id": 152,
+"title": "Birthday Cake Candles",
+"url": "https://www.hackerrank.com/challenges/birthday-cake-candles/"
+},
+{
+"id": 153,
+"title": "Time Conversion",
+"url": "https://www.hackerrank.com/challenges/time-conversion/"
+},
+{
+"id": 154,
+"title": "Grading Students",
+"url": "https://www.hackerrank.com/challenges/grading/"
+},
+{
+"id": 155,
+"title": "Apple and Orange",
+"url": "https://www.hackerrank.com/challenges/apple-and-orange/"
+},
+{
+"id": 156,
+"title": "Number Line Jumps",
+"url": "https://www.hackerrank.com/challenges/kangaroo/"
+},
+{
+"id": 157,
+"title": "Between Two Sets",
+"url": "https://www.hackerrank.com/challenges/between-two-sets/"
+},
+{
+"id": 158,
+"title": "Breaking the Records",
+"url": "https://www.hackerrank.com/challenges/breaking-best-and-worst-records/"
+},
+{
+"id": 159,
+"title": "Subarray Division",
+"url": "https://www.hackerrank.com/challenges/the-birthday-bar/"
+},
+{
+"id": 160,
+"title": "Divisible Sum Pairs",
+"url": "https://www.hackerrank.com/challenges/divisible-sum-pairs/"
+},
+{
+"id": 161,
+"title": "Migratory Birds",
+"url": "https://www.hackerrank.com/challenges/migratory-birds/"
+},
+{
+"id": 162,
+"title": "Day of the Programmer",
+"url": "https://www.hackerrank.com/challenges/day-of-the-programmer/"
+},
+{
+"id": 163,
+"title": "Bill Division",
+"url": "https://www.hackerrank.com/challenges/bon-appetit/"
+}
+],
+"medium": [
+{
+"id": 164,
+"title": "Angry Professor",
+"url": "https://www.hackerrank.com/challenges/angry-professor/"
+},
+{
+"id": 165,
+"title": "Extra Long Factorials",
+"url": "https://www.hackerrank.com/challenges/extra-long-factorials/"
+},
+{
+"id": 166,
+"title": "Sherlock and Squares",
+"url": "https://www.hackerrank.com/challenges/sherlock-and-squares/"
+},
+{
+"id": 167,
+"title": "Library Fine",
+"url": "https://www.hackerrank.com/challenges/library-fine/"
+},
+{
+"id": 168,
+"title": "Cut the sticks",
+"url": "https://www.hackerrank.com/challenges/cut-the-sticks/"
+},
+{
+"id": 169,
+"title": "Non-Divisible Subset",
+"url": "https://www.hackerrank.com/challenges/non-divisible-subset/"
+},
+{
+"id": 170,
+"title": "Repeated String",
+"url": "https://www.hackerrank.com/challenges/repeated-string/"
+},
+{
+"id": 171,
+"title": "Jumping on the Clouds",
+"url": "https://www.hackerrank.com/challenges/jumping-on-the-clouds/"
+},
+{
+"id": 172,
+"title": "Equalize the Array",
+"url": "https://www.hackerrank.com/challenges/equality-in-a-array/"
+},
+{
+"id": 173,
+"title": "Queen's Attack II",
+"url": "https://www.hackerrank.com/challenges/queens-attack-2/"
+},
+{
+"id": 174,
+"title": "ACM ICPC Team",
+"url": "https://www.hackerrank.com/challenges/acm-icpc-team/"
+},
+{
+"id": 175,
+"title": "Taum and B'day",
+"url": "https://www.hackerrank.com/challenges/taum-and-bday/"
+},
+{
+"id": 176,
+"title": "Organizing Containers of Balls",
+"url": "https://www.hackerrank.com/challenges/organizing-containers-of-balls/"
+},
+{
+"id": 177,
+"title": "Encryption",
+"url": "https://www.hackerrank.com/challenges/encryption/"
+},
+{
+"id": 178,
+"title": "Bigger is Greater",
+"url": "https://www.hackerrank.com/challenges/bigger-is-greater/"
+},
+{
+"id": 179,
+"title": "Modified Kaprekar Numbers",
+"url": "https://www.hackerrank.com/challenges/kaprekar-numbers/"
+},
+{
+"id": 180,
+"title": "Beautiful Triplets",
+"url": "https://www.hackerrank.com/challenges/beautiful-triplets/"
+},
+{
+"id": 181,
+"title": "Append and Delete",
+"url": "https://www.hackerrank.com/challenges/append-and-delete/"
+},
+{
+"id": 182,
+"title": "HackerRank in a String!",
+"url": "https://www.hackerrank.com/challenges/hackerrank-in-a-string/"
+},
+{
+"id": 183,
+"title": "Pangrams",
+"url": "https://www.hackerrank.com/challenges/pangrams/"
+}
+],
+"hard": [
+{
+"id": 201,
+"title": "Matrix Layer Rotation",
+"url": "https://www.hackerrank.com/challenges/matrix-layer-rotation/"
+},
+{
+"id": 202,
+"title": "The Bomberman Game",
+"url": "https://www.hackerrank.com/challenges/bomber-man/"
+},
+{
+"id": 203,
+"title": "Dijkstra: Shortest Reach 2",
+"url": "https://www.hackerrank.com/challenges/dijkstrashortreach/"
+},
+{
+"id": 204,
+"title": "Almost Sorted",
+"url": "https://www.hackerrank.com/challenges/almost-sorted/"
+},
+{
+"id": 205,
+"title": "Absolute Element Sums",
+"url": "https://www.hackerrank.com/challenges/playing-with-numbers/"
+},
+{
+"id": 206,
+"title": "The Coin Change Problem",
+"url": "https://www.hackerrank.com/challenges/coin-change/"
+},
+{
+"id": 207,
+"title": "Equal",
+"url": "https://www.hackerrank.com/challenges/equal/"
+},
+{
+"id": 208,
+"title": "The Maximum Subarray",
+"url": "https://www.hackerrank.com/challenges/maxsubarray/"
+},
+{
+"id": 209,
+"title": "Journey to the Moon",
+"url": "https://www.hackerrank.com/challenges/journey-to-the-moon/"
+},
+{
+"id": 210,
+"title": "Red Knight's Shortest Path",
+"url": "https://www.hackerrank.com/challenges/red-knights-shortest-path/"
+},
+{
+"id": 211,
+"title": "Abbreviation",
+"url": "https://www.hackerrank.com/challenges/abbreviation/"
+},
+{
+"id": 212,
+"title": "Common Child",
+"url": "https://www.hackerrank.com/challenges/common-child/"
+},
+{
+"id": 213,
+"title": "Sherlock and Anagrams",
+"url": "https://www.hackerrank.com/challenges/sherlock-and-anagrams/"
+},
+{
+"id": 214,
+"title": "HackerRank City",
+"url": "https://www.hackerrank.com/challenges/hr-city/"
+},
+{
+"id": 215,
+"title": "Array Construction",
+"url": "https://www.hackerrank.com/challenges/array-construction/"
+},
+{
+"id": 216,
+"title": "Sherlock and the Valid String",
+"url": "https://www.hackerrank.com/challenges/sherlock-and-valid-string/"
+},
+{
+"id": 217,
+"title": "Special String Again",
+"url": "https://www.hackerrank.com/challenges/special-palindrome-again/"
+},
+{
+"id": 218,
+"title": "Candies",
+"url": "https://www.hackerrank.com/challenges/candies/"
+},
+{
+"id": 219,
+"title": "Decibinary Numbers",
+"url": "https://www.hackerrank.com/challenges/decibinary-numbers/"
+},
+{
+"id": 220,
+"title": "Constructing a Number",
+"url": "https://www.hackerrank.com/challenges/constructing-a-number/"
+}
+]
+}
+}
+}
