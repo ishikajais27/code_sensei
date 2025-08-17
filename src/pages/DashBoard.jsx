@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { account } from '../backend/utils/appwrite'
+import { account } from '../../backend/utils/appwrite'
 import { useNavigate, Link, Routes, Route } from 'react-router-dom'
 import TaskManager from '../pages/TASKMANAGER/TaskManager'
 import AnimePoints from '../pages/ANIME/AnimePoints'

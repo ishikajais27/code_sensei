@@ -8,7 +8,7 @@ import {
   Bell,
   RotateCcw,
 } from 'lucide-react'
-import { databases, account } from '../../backend/utils/appwrite'
+import { databases, account } from '../../../backend/utils/appwrite'
 import { Client, Account, Databases, Query } from 'appwrite'
 import './TaskManager.css'
 
