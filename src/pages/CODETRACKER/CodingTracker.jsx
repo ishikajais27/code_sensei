@@ -82,7 +82,7 @@ const CodingTracker = () => {
         }
 
         const response = await axios.get(
-          'http://localhost:5000/api/questions',
+          'https://code-sensei-backend.onrender.com/api/questions',
           {
             params,
           }
