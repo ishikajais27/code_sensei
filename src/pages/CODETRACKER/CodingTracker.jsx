@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { Code, Trophy, Zap, ExternalLink } from 'lucide-react'
 import { Chart, registerables } from 'chart.js'
-import leetcode from '../../backend/data/leetcode.json'
-import hackerrank from '../../backend/data/hackerrank.json'
-import codechef from '../../backend/data/codechef.json'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import './Code.css'
+import axios from 'axios'
+
 Chart.register(...registerables)
 
 const CodingTracker = () => {
@@ -22,116 +21,126 @@ const CodingTracker = () => {
   const [todaySolvedCount, setTodaySolvedCount] = useState(0)
   const [activityDates, setActivityDates] = useState([])
 
-  // Load today's solved questions from localStorage
+  // Load user data from localStorage
   useEffect(() => {
-    const storedCount = localStorage.getItem('todaySolvedCount')
-    const lastUpdated = localStorage.getItem('lastUpdated')
-    const storedActivityDates = JSON.parse(
-      localStorage.getItem('activityDates') || '[]'
-    )
+    const loadUserData = () => {
+      const storedCount = localStorage.getItem('todaySolvedCount')
+      const lastUpdated = localStorage.getItem('lastUpdated')
+      const storedActivityDates = JSON.parse(
+        localStorage.getItem('activityDates') || '[]'
+      )
+      const storedSolvedQuestions = JSON.parse(
+        localStorage.getItem('solvedQuestions') || '[]'
+      )
+      const storedStreak = localStorage.getItem('streak') || '0'
+      const storedAchievements = JSON.parse(
+        localStorage.getItem('achievements') || '[]'
+      )
 
-    if (storedCount) {
-      const now = new Date()
-      const lastUpdatedDate = new Date(lastUpdated)
+      // Handle today's solved count
+      if (storedCount) {
+        const now = new Date()
+        const lastUpdatedDate = new Date(lastUpdated)
 
-      // Reset count if more than 24 hours have passed
-      if (now - lastUpdatedDate >= 24 * 60 * 60 * 1000) {
-        localStorage.setItem('todaySolvedCount', '0')
-        localStorage.setItem('lastUpdated', now.toISOString())
-        setTodaySolvedCount(0)
+        if (now - lastUpdatedDate >= 24 * 60 * 60 * 1000) {
+          localStorage.setItem('todaySolvedCount', '0')
+          localStorage.setItem('lastUpdated', now.toISOString())
+          setTodaySolvedCount(0)
+        } else {
+          setTodaySolvedCount(parseInt(storedCount))
+        }
       } else {
-        setTodaySolvedCount(Number.parseInt(storedCount))
+        localStorage.setItem('todaySolvedCount', '0')
+        localStorage.setItem('lastUpdated', new Date().toISOString())
+        setTodaySolvedCount(0)
       }
-    } else {
-      localStorage.setItem('todaySolvedCount', '0')
-      localStorage.setItem('lastUpdated', new Date().toISOString())
-      setTodaySolvedCount(0)
+
+      // Load other data
+      setActivityDates(storedActivityDates)
+      setSolvedQuestions(storedSolvedQuestions)
+      setStreak(parseInt(storedStreak))
+      setAchievements(storedAchievements)
     }
 
-    // Load activity dates
-    setActivityDates(storedActivityDates)
+    loadUserData()
   }, [])
 
-  // Fetch questions when platform, language, difficulty, or topic changes
+  // Fetch questions from backend API
   useEffect(() => {
-    const loadQuestions = () => {
+    const fetchQuestions = async () => {
       setLoading(true)
-      let fetchedQuestions = []
-
       try {
-        // Determine which data source to use based on platform
-        const dataSource =
-          platform === 'leetcode'
-            ? leetcode
-            : platform === 'hackerrank'
-            ? hackerrank
-            : codechef
-
-        if (language === 'Programming Language') {
-          if (difficulty === 'easy') {
-            fetchedQuestions =
-              dataSource[platform]?.[language]?.[topic]?.[difficulty] || []
-          } else {
-            fetchedQuestions =
-              dataSource[platform]?.[language]?.[difficulty] || []
-          }
-        } else {
-          fetchedQuestions =
-            dataSource[platform]?.[language]?.[difficulty] || []
+        const params = {
+          platform,
+          language,
+          difficulty,
         }
-        console.log('Fetched Questions:', fetchedQuestions)
-        setQuestions(fetchedQuestions)
-      } catch (error) {
-        console.error('Error loading questions:', error)
-        setQuestions([])
-      }
 
-      setLoading(false)
+        // Only add topic if language is 'Programming Language'
+        if (language === 'Programming Language') {
+          params.topic = topic
+        }
+
+        const response = await axios.get(
+          'http://localhost:5000/api/questions',
+          {
+            params,
+          }
+        )
+
+        setQuestions(response.data || [])
+      } catch (error) {
+        console.error('Error fetching questions:', error)
+        setQuestions([])
+      } finally {
+        setLoading(false)
+      }
     }
-    loadQuestions()
+
+    fetchQuestions()
   }, [platform, language, difficulty, topic])
 
   // Mark question as solved
   const markSolved = (id) => {
     if (!solvedQuestions.includes(id)) {
-      setSolvedQuestions([...solvedQuestions, id])
-
-      // Update today's solved count
+      const newSolvedQuestions = [...solvedQuestions, id]
       const newCount = todaySolvedCount + 1
-      setTodaySolvedCount(newCount)
-
-      // Update activity dates
       const today = new Date().toISOString().split('T')[0]
-      const updatedActivityDates = [...activityDates, today]
+      const updatedActivityDates = [...new Set([...activityDates, today])]
+      const newStreak = streak + 1
+
+      // Update state
+      setSolvedQuestions(newSolvedQuestions)
+      setTodaySolvedCount(newCount)
       setActivityDates(updatedActivityDates)
+      setStreak(newStreak)
 
       // Update localStorage
       localStorage.setItem('todaySolvedCount', newCount.toString())
+      localStorage.setItem('lastUpdated', new Date().toISOString())
       localStorage.setItem(
         'activityDates',
         JSON.stringify(updatedActivityDates)
       )
-      localStorage.setItem('lastUpdated', new Date().toISOString())
+      localStorage.setItem(
+        'solvedQuestions',
+        JSON.stringify(newSolvedQuestions)
+      )
+      localStorage.setItem('streak', newStreak.toString())
 
-      checkAchievements()
-      updateStreak()
+      // Check achievements
+      checkAchievements(newSolvedQuestions.length)
     }
   }
 
   // Check for achievements
-  const checkAchievements = () => {
-    if (
-      solvedQuestions.length + 1 === 10 &&
-      !achievements.includes('Solved 10 Questions')
-    ) {
-      setAchievements([...achievements, 'Solved 10 Questions'])
+  const checkAchievements = (solvedCount) => {
+    if (solvedCount >= 10 && !achievements.includes('Solved 10 Questions')) {
+      const newAchievements = [...achievements, 'Solved 10 Questions']
+      setAchievements(newAchievements)
+      localStorage.setItem('achievements', JSON.stringify(newAchievements))
       alert('Achievement Unlocked: Solved 10 Questions! 🎉')
     }
-  }
-
-  // Update streak
-  const updateStreak = () => {
-    setStreak((prev) => prev + 1)
   }
 
   // Custom tile content for react-calendar
@@ -152,7 +161,7 @@ const CodingTracker = () => {
           <Code className="mr-2" /> Coding Question Tracker
         </h2>
 
-        {/* Display total questions solved today */}
+        {/* Today's solved count */}
         <div className="mb-4">
           <h3 className="text-lg font-semibold flex items-center">
             <Zap className="mr-2 text-yellow-400" /> Total Questions Solved
@@ -160,7 +169,7 @@ const CodingTracker = () => {
           </h3>
         </div>
 
-        {/* Platform, Language, Difficulty, and Topic Selection */}
+        {/* Filters */}
         <div className="flex flex-wrap gap-4 mb-4">
           {/* Platform Filter */}
           <select
@@ -173,7 +182,7 @@ const CodingTracker = () => {
             <option value="codechef">CodeChef</option>
           </select>
 
-          {/* Programming Language Filter */}
+          {/* Language Filter */}
           <select
             value={language}
             onChange={(e) => setLanguage(e.target.value)}
@@ -197,8 +206,8 @@ const CodingTracker = () => {
             <option value="hard">Hard</option>
           </select>
 
-          {/* Topic Filter - Only for Easy Mode and Programming Language */}
-          {difficulty === 'easy' && language === 'Programming Language' && (
+          {/* Topic Filter - Only for Programming Language */}
+          {language === 'Programming Language' && (
             <select
               value={topic}
               onChange={(e) => setTopic(e.target.value)}
@@ -292,7 +301,7 @@ const CodingTracker = () => {
           )}
         </div>
 
-        {/* Custom Activity Calendar */}
+        {/* Activity Calendar */}
         <div className="mb-4">
           <h3 className="text-lg font-semibold flex items-center mb-4">
             <Zap className="mr-2 text-green-400" /> Activity Calendar
